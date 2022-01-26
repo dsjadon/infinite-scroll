@@ -1,0 +1,15 @@
+.reddit-item-wrapper{
+    border: 1px solid #979595;
+    border-radius: 4px;
+    min-height: 250px;
+    box-shadow: 0 1.5px 1px #979595;
+    text-align: center;
+    margin: 1rem;
+
+    .title{
+        cursor: pointer;
+    }
+    .subreddit{
+        margin: 1rem 0;
+    }
+}

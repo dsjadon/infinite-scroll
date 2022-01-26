@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="wrapper" #wrapper>
+        <ng-container *ngFor="let item of itemList">
+            <app-reddit-list-item 
+                [title]="item.data.title"
+                [thumbnail]="item.data.thumbnail"
+                [thumbnailHeight]="item.data.thumbnail_height"
+                [thumbnailWidth]="item.data.thumbnail_width"
+                [subredditName]="item.data.name">
+            </app-reddit-list-item>
+        </ng-container>
+    </div>
+</div>

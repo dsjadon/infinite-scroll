@@ -1,0 +1,9 @@
+<div class="reddit-item-wrapper">
+    <h5 (click)="goToPost()" class="title">{{title}}</h5>
+    <div class="thumbnail">
+        <img [src]="thumbnail" alt="thumbnail" height="{{thumbnailHeight}}" width="{{thumbnailWidth}}">
+    </div>
+    <div class="subreddit">
+        original subreddit Name: <span>{{subredditName}}</span>
+    </div>
+</div>
